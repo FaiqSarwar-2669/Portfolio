@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Webpage Design</title>
+    <script src="https://kit.fontawesome.com/c18972abce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+
+
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="../pics/pexels-pressmaster-3130284-3840x2160-30fps.mp4" type="video/mp4">
+    </video>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Faiq Sarwar</label>
+        <ul>
+            <li><a class="header-link" href="../index.html">HOME</a></li>
+            <li><a class="header-link" href="myproject.html">MYPROJECTS</a></li>
+            <li><a class="header-link" href="about.html">ABOUT</a></li>
+            <li><a class="header-link active" href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div>
+        <label class="heading">Do you need my help?</label>
+        <div class="form">
+            <label for="name" class="form-label">Name:<span class="form-span">*</span></label><br>
+            <input type="text" id="name" class="form-inputs" placeholder="Enter Your Name"><br>
+            <label for="subject" class="form-label">Subject:<span class="form-span">*</span></label><br>
+            <input type="text" id="subject" class="form-inputs" placeholder="Enter Subject"><br>
+            <label for="email" class="form-label">Email:<span class="form-span">*</span></label><br>
+            <input type="email" id="email" class="form-inputs" placeholder="Enter Email"><br>
+            <label for="msg" class="form-label">Message:<span class="form-span">*</span></label><br>
+            <textarea id="msg" cols="28" rows="5" placeholder="Whats's you need witer hare...."></textarea>
+            <button class="cn cn1" id="sendmail">Send Message</button>
+        </div>
+    </div>
+    <script src="../jquery.js"></script>
+    <script src="../javascript.js"></script>
+</body>
+
+</html>
